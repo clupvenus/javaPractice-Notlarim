@@ -1,5 +1,9 @@
 package SampleQuestion;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class Soru37 {
     public static void main(String[] args) {
         /*------------------------------------------------------------------------------------------------------------------
@@ -20,8 +24,19 @@ public class Soru37 {
             1 2 3 2 1 6 3 4 5 2
     ÇIKTI:
     Birbirinden farkli girilen sayilar: 1 2 3 6 4 5
-
-
          */
+        Scanner scan = new Scanner(System.in);
+        int sayac=1;
+        List<Integer> sayilar= new ArrayList<>();
+        while(sayac<11) {
+            System.out.println("Lutfen sayi giriniz.");
+            if(!sayilar.contains(scan.nextInt())){
+                sayilar.add(scan.nextInt());}
+            sayac++;
+
+        }
+        System.out.println(sayilar);
+
+
     }
 }
