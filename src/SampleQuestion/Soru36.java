@@ -11,6 +11,8 @@ public class Soru36 {
     output:         4
     İpucu:  Arrayin indexini hesaplayarak bulabilirsiniz. Kendinizi geliştirme adına sorunun cevabını degişik yollardan yapabilir, Arrayi kullanıcıya oluşturabilirsiniz (Öneri..)
 */
-
+    int [] arr= {1,2,3,4,5,6,7};
+    int output= arr[arr.length/2];
+        System.out.println(output);
     }
 }
