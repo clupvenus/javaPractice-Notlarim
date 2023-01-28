@@ -1,6 +1,6 @@
-package test.day05;
+package test.day07ayse;
 
-public class Q1 {
+public class Q1_Menu {
     public static void main(String[] args) {
         // create 2D array of food:
         // print all the foods sorted
